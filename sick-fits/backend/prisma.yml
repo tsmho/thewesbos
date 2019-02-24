@@ -1,7 +1,8 @@
-endpoint: ${env:PRISMA_ENDPOINT}
+#endpoint: ${env:PRISMA_ENDPOINT}
+endpoint: https://antichampro-ba19a78235.herokuapp.com/antichampro/prod
 # endpoint: https://us1.prisma.sh/jamieho/sickfit/dev
 datamodel: datamodel.graphql
-# secret: ${env:PRISMA_SECRET}
+secret: ${env:PRISMA_SECRET}
 hooks:
   post-deploy:
       - graphql get-schema -p prisma

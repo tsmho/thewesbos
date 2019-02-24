@@ -27,7 +27,7 @@ const Pagination = props => (
         <PaginationStyles>
           <Head>
             <title>
-              Sick Fits! — Page {page} of {pages}
+              Antichamp! — Page {page} of {pages}
             </title>
           </Head>
           <Link
